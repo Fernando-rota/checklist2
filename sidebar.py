@@ -1,5 +1,5 @@
-import streamlit as st
-import pandas as pd
+from data_loader import load_checklist_data
+
 
 def render_sidebar():
     st.sidebar.header("🔍 Filtros")
