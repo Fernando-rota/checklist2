@@ -1,8 +1,8 @@
-# 📦 checklist_dashboard/app.py
+# 📦 checklist2/app.py
 
 import streamlit as st
-from utils.sidebar import render_sidebar
-from utils.tabs import render_tabs
+from sidebar import render_sidebar
+from tabs import render_tabs
 
 st.set_page_config(
     page_title="📋 Checklist Veicular",
