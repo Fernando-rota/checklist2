@@ -1,6 +1,5 @@
-import streamlit as st
-from utils.filters import apply_filters
-from utils.helpers import generate_charts, show_photos, show_dataframes
+from filters import apply_filters
+from helpers import load_photos
 
 def render_tabs(filters):
     if not filters:
